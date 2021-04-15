@@ -2,10 +2,9 @@
 
 '''
 Problem:
-    Get an array from user 
-    sort array in accending format 
-    without using any builtin method ot funcation  
-
+   Get an array from the user 
+    sort array in ascending format 
+    without using any builtin method to function  
 psudocode:
     Func sortData(array: list)->list:
     len(array)
