@@ -48,3 +48,5 @@ def sortDatainAccending(array: list)->list:
 sortDatainAccending([20,34,5000,23,1,0,0.1,-8,-1,23])
 sortDatainAccending(['a','z','c','abc'])
 sortDatainAccending(['abc',12,'abc'])
+
+# code :- github.com/pandatd/
