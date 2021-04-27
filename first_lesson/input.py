@@ -5,7 +5,7 @@ syntax :-
         object = function - message
         the taken input is being stored in object variable
         don't be upset we will dissuss more about variavles in
-        upcomming leactures
+        upcoming leactures
 example :-
         my_name = input("Enter Your Name : )
         print(my_name)
@@ -18,7 +18,7 @@ output  :-
         A) Today , we will learn about how to take input in Python
         1. The input function will take  string parameter by default
         2. Yes, we can take integer input also , but we have to pass in
-           int() funcation. '''
+           int() function. '''
 
 input("Let's start lesson... Press any key to start")
 my_name = input("Enter Your Name : ")
