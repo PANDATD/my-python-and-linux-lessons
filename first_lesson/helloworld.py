@@ -6,7 +6,7 @@ Note:-
     
     How to use ?
     
-    If you want print the string or something  you have to
+    If you want print a string or something else you have to
     use the print() function which will builtin in Python 3.x.
     
     '''
