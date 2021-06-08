@@ -1,4 +1,4 @@
-#!/bin/env/python3
+#!/usr/bin/env python3
 
 '''
 Problem:
@@ -21,32 +21,32 @@ psudocode:
 
 #code
 
-def sortDatainAccending(array: list)->list:
+def sortDatainAccending(array: list) -> list:
     try:
-    
         print()
         print(f"Data after sorting{array}")
         '''
-        This funcation takes an array as parameter
+        This function takes an array as parameter
         Example :
         sortDatainAccending([99,20,34,65,78])
         --------------------------------------
-        (Funcation name ( [parameter] :TYPE list  )   )
+        (Function name ( [parameter] :TYPE list  )   )
         '''
         length = len(array) # This will find the length of an array.
         sortArray = [] # This empty array stores the sorted result.
         for i in range(length):
-            
             minData = min(array) # Find the min value from array.
             sortArray.append(minData) # Appending Result in new sorted array.
-            array.remove(minData) # Removing minData from array that alrady is beging checked or sorted form previous list.
+            array.remove(minData) # Removing minData from array that already is beging checked or sorted form previous list.
         print(f"The Sorted data is : {sortArray}")
         print()
-    except:
-        print("Sorting opretion cannot be done in <int> and <string> data")
+        return sortArray
+    except TypeError:
+        print("Sorting operation cannot be done in <int> and <string> data")
+        return []
         
-sortDatainAccending([20,34,5000,23,1,0,0.1,-8,-1,23])
-sortDatainAccending(['a','z','c','abc'])
-sortDatainAccending(['abc',12,'abc'])
+print(sortDatainAccending([20,34,5000,23,1,0,0.1,-8,-1,23]))
+print(sortDatainAccending(['a','z','c','abc']))
+print(sortDatainAccending(['abc',12,'abc']))
 
 # code :- github.com/pandatd/
